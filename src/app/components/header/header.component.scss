@@ -1,0 +1,47 @@
+@media (max-width: 991px) {
+  .header-container {
+    margin-top: 90px!important;
+    .text {
+      right: 50%;
+      left: unset!important;
+      transform: translate(50%,-50%)!important;
+      width: 80%!important;
+      .title {
+        font-size: 42px !important;
+        text-align: center;
+        line-height: 48px!important;
+      }
+      .description {
+        font-size: 16px !important;
+      }
+    }
+  }
+}
+.header-container {
+  height: 730px;
+  position: relative;
+  img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  .text {
+    position: absolute;
+    top: 50%;
+    left: 100px;
+    transform: translateY(-50%);
+    color: #ffffff;
+    width: 40%;
+    .title {
+      font-size: 60px;
+      font-weight: 700;
+      line-height: 60px;
+      font-family: "Rajdhani", sans-serif;
+    }
+    .description {
+      font-size: 17px;
+      margin-top: 24px;
+      font-family: "Nunito", sans-serif;
+    }
+  }
+}

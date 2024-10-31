@@ -23,6 +23,11 @@
   }
 }
 @media (max-width: 650px) {
+  .flip-card {
+    &:hover .flip-card-inner {
+      transform: unset!important
+    }
+  }
   .services-container {
     padding: 64px 24px!important;
     .iframe {

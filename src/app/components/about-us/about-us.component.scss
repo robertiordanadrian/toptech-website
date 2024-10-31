@@ -18,6 +18,11 @@
   }
 }
 @media (max-width: 650px) {
+  .flip-card {
+    &:hover .flip-card-inner {
+      transform: unset!important
+    }
+  }
   .about-us-container {
     padding: 64px 24px 0 24px!important;
   }

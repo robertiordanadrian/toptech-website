@@ -18,6 +18,9 @@
   }
 }
 @media (max-width: 650px) {
+  .about-us-container {
+    padding: 64px 24px 0 24px!important;
+  }
   .flip-card-front {
     img {
       width: 40px!important;
